@@ -1,0 +1,39 @@
+.hero{
+    margin-top: 200px;
+    padding-bottom: 200px;
+    &__items{
+        &-timer{
+            display: flex;
+        }
+    }
+    &__item{
+        &-title {
+            color: #fff;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 140%;
+        }
+        &-timer{
+            width: 102px;
+            height: 112px;
+            background-color: #121212;
+            color: #fff;
+            text-align: center;
+            padding: 20px 30px;
+            h2{
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 140%;
+            }
+            &:not(:last-child){
+                margin-right: 30px;
+            }
+        }
+        &-text{
+            color: #fff;
+            opacity: .4;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}

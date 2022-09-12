@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: url(../img/bg.png) no-repeat center / cover;
+
+}
+body{
+    font-size: 1rem;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    cursor: pointer;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    border-radius: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+
+.section{
+    padding: 40px 0;
+}

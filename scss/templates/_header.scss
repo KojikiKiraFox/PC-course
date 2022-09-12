@@ -1,0 +1,34 @@
+.bgi{
+    background: url(../../img/hero/bg.png) no-repeat center / cover;
+}
+
+.header{
+    
+    &-container{
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav{
+        &-items{
+            display: flex;
+            justify-content: space-between;
+        }
+        &-item{
+            &:not(:last-child){
+                margin-right: 55px;
+            }
+        }
+        &-link{
+            color: #fff;
+        }
+    }
+    &-btn{
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+}
