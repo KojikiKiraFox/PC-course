@@ -2,6 +2,13 @@
 @import './_settings.scss';
 @import './_grid.scss';
 
-@import './templates/header';
-@import './templates/hero';
-@import './templates/statistic'
+@import './templates/_header.scss';
+@import './templates/_hero.scss';
+@import './templates/_statistic.scss';
+@import './templates/_about.scss';
+@import './templates/_start.scss';
+@import './templates/_profession.scss';
+@import './templates/_partners.scss';
+@import './templates/program';
+@import './templates/teachers';
+@import './templates/footer'

@@ -1,0 +1,16 @@
+.about{
+    padding-top: 296px;
+    padding-bottom: 200px;
+    &-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        &-title{
+            margin-bottom: 45px;
+        }
+    }
+    &-img{
+        margin-right: 140px;
+    }
+}

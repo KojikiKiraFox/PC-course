@@ -37,4 +37,10 @@ img{
 
 .section{
     padding: 40px 0;
+    &-title{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 140%;
+        color: #fff;
+    }
 }
